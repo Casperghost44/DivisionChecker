@@ -1,0 +1,52 @@
+@media (max-width: 84em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 71em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 61em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 54em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media (max-width: 46em) {
+  html {
+    font-size: 31.25%;
+  }
+}
+
+@media (max-width: 38em) {
+  .num-box {
+    font-size: 3.6rem;
+    padding: 2rem;
+  }
+  .inp-num {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .num-box {
+    font-size: 2rem;
+    padding: 1.8rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .row {
+    gap: 1.4rem;
+  }
+}

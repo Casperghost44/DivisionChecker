@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+    <title>Division Checker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="switch">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 dark-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+          />
+        </svg>
+        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+      </div>
+      <p class="short-description">Is it divisible?</p>
+      <div class="input-container">
+        <input
+          type="text"
+          placeholder="Your number"
+          class="inp-num"
+          pattern="\d+"
+        />
+        <span>* Up to 29. Positive intengers only.</span>
+      </div>
+
+      <div class="numbers-container">
+        <div class="row">
+          <div class="num-box">2</div>
+          <div class="num-box">3</div>
+          <div class="num-box">4</div>
+          <div class="num-box">5</div>
+          <div class="num-box">6</div>
+          <div class="num-box">7</div>
+          <div class="num-box">8</div>
+          <div class="num-box">9</div>
+          <div class="num-box">10</div>
+          <div class="num-box last-in-row" data-val="11">+</div>
+        </div>
+        <div class="row row--inactive">
+          <div class="num-box btn-hide">-</div>
+          <div class="num-box">12</div>
+          <div class="num-box">13</div>
+          <div class="num-box">14</div>
+          <div class="num-box">15</div>
+          <div class="num-box">16</div>
+          <div class="num-box">17</div>
+          <div class="num-box">18</div>
+          <div class="num-box">19</div>
+          <div class="num-box last-in-row" data-val="20">+</div>
+        </div>
+        <div class="row row--inactive">
+          <div class="num-box btn-hide">-</div>
+          <div class="num-box">21</div>
+          <div class="num-box">22</div>
+          <div class="num-box">23</div>
+          <div class="num-box">24</div>
+          <div class="num-box">25</div>
+          <div class="num-box">26</div>
+          <div class="num-box">27</div>
+          <div class="num-box">28</div>
+          <div class="num-box last-in-row" data-val="29">29</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Copyright &copy; by <a href="#" class="cv-link">Artem Meshcheryakov</a>.
+        All rights are reserved.
+      </p>
+    </footer>
+  </body>
+</html>

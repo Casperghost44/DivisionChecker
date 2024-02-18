@@ -1,6 +1,12 @@
 :root {
   --invalid-inp: #e52a5a;
   --valid-inp: rgba(57, 179, 132);
+  --unit-100vh: 100vh;
+}
+@supports (height: 100dvh) {
+  :root {
+    --unit-100vh: 100dvh;
+  }
 }
 * {
   margin: 0;

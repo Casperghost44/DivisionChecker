@@ -30,7 +30,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 4.8rem;
-
+  padding: 2.4rem;
   transition: all 0.3s;
 }
 

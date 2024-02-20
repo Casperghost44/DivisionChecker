@@ -46,10 +46,14 @@
 }
 
 @media (max-width: 32em) {
+  .num-box {
+    padding: 1.2rem;
+    font-size: 1.8rem;
+  }
   .row {
-    gap: 1.4rem;
+    gap: 1rem;
   }
   .no-flexbox-gap .row:not(:last-child) {
-    margin-right: 1.4rem;
+    margin-right: 1rem;
   }
 }

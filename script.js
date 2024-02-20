@@ -3,7 +3,7 @@ const inpData = document.querySelector(".inp-num");
 const numArr = document.querySelectorAll(".num-box");
 const btnAdd = document.querySelectorAll(".last-in-row");
 const btnRemove = document.querySelectorAll(".btn-hide");
-const containerEl = document.querySelector(".container");
+const containerEl = document.querySelector(".content");
 const spanEls = document.querySelectorAll("span");
 const darkIcon = document.querySelector(".dark-icon");
 const checkBtn = document.querySelector("#switch");
@@ -68,6 +68,7 @@ checkBtn.addEventListener("change", function () {
   description.classList.toggle("dark");
   cvLink.classList.toggle("dark");
   footerEl.classList.toggle("dark");
+  document.body.classList.toggle("dark");
 });
 
 function checkFlexGap() {

@@ -22,7 +22,7 @@ body {
   background-color: #f3f3f3;
   overflow-x: hidden;
   transition: all 0.4s;
-  height: 100vh;
+  height: 100dvh;
 }
 
 body.dark {
@@ -36,7 +36,7 @@ body.dark {
 }
 
 main {
-  margin: auto auto;
+  margin: 9.6rem auto;
 }
 
 .content {
